@@ -1,0 +1,42 @@
+/* styling for a class */
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* styling for an ID */
+#main-heading {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* styling for an attribute selector (targeting links with the "target" attribute) */
+a[target="_blank"] {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+a[target="_blank"]:hover {
+    color: #0056b3
+}
+
+/* styling for an input element with the "type" attribute set to text */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/*styling for a disabled button (using attribute selector) */
+button[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
